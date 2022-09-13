@@ -66,7 +66,8 @@ var td3=td("td",`${res1[index].Deaths}`)
 var td4=td("td",`${res1[index].Active}`)
 tr1.append(td2,td3,td4)
 table.append(tr1);
-document.body.append(table);
+div1.append(table)
+document.body.append(div1)
 
 
 }
